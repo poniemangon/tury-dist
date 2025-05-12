@@ -1,0 +1,26 @@
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+}
+
+.animate-on-scroll.fade-up {
+    transform: translateY(40px);
+}
+
+.animate-on-scroll.fade-down {
+    transform: translateY(-40px);
+}
+
+.animate-on-scroll.fade-left {
+    transform: translateX(-40px);
+}
+
+.animate-on-scroll.fade-right {
+    transform: translateX(40px);
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -1,0 +1,374 @@
+* {margin: 0; padding: 0; scroll-behavior: smooth; scroll-margin-top: 200px;}
+
+/* main {overflow: hidden;} */
+
+#hs-cmsf-branding .hs-cmsf-branding__label {opacity: 0!important}
+
+.container {width: 80%; max-width: 1200px; margin: auto;}
+
+.red {color: white; background-color: #BD181A;}
+
+.black {color: white; background-color: black;}
+
+.btn {padding: 16px 23px; text-transform: uppercase; font-size: 18px; display: inline-block; font-family: 'Inter', sans-serif;}
+
+.btn.black:hover {color: white; background-color: #BD181A;}
+
+.btn.red:hover {background-color: black; color: white;}
+
+.red-text {color:  #BD181A}
+
+h1 {font-size: 50px; line-height: 55px; font-family: "Inter", sans-serif; font-weight: 500;}
+
+.display-2 {font-size: 57px;  font-family: "Inter", sans-serif; font-weight: 500; text-transform: uppercase; line-height: 73px;}
+
+.display-1 {font-size: 132px; line-height: 78px; font-family: "Inter", sans-serif; font-weight: 500; text-transform: uppercase; line-height: 73px;}
+
+h2 {font-size: 40px; line-height: 55px; font-family: "Inter", sans-serif; font-weight: 500;}
+
+p, .hs-error-msg {font-family: "Inter", sans-serif;}
+
+p.body {font-size: 21px; line-height:30px;}
+
+.headline {font-size: 15px; letter-spacing: 2px; font-family: "Inter", sans-serif; text-transform: uppercase;}
+
+.subhead {font-size: 18px; font-family: "Inter", sans-serif; text-transform: uppercase; font-weight: 400;}
+
+a {text-decoration: none;  transition: 0.2s;}
+
+@media (max-width: 992px){
+    h1 {font-size: 42px}
+
+    h2 {font-size: 36px;}
+
+    .display-2 {font-size: 50px; line-height: 60px}
+
+    .subhead {font-size: 16px;}
+
+    p.body {font-size: 18px;}
+
+    .btn {font-size: 15px;}
+
+    p.caption {font-size: 16px}
+}
+
+@media (max-width: 540px){
+    .display-2 {font-size: 38px; line-height: 50px;}
+}
+
+a:hover, a.subhead:hover {color: #BD181A; transition: 0.2s;}
+
+.caption {line-height: 25px; font-size: 18px; font-family: "Inter", sans-serif;}
+
+.d-flex {display: flex;}
+
+ul, li {list-style: none;}
+
+.m-auto {margin: auto;}
+
+/* header section */
+
+.header-section {position: fixed; width: 100vw; background-color: transparent; transition: 0.3s; z-index: 5;}
+
+.header-section.scrolled, .header-section.open {background-color: black; transition: 0.3s;}
+
+.header-section .container .row {padding: 60px 0; display: flex; justify-content: space-between; align-items: center;}
+
+.header-section .container .row .col ul {gap: 48px;}
+
+.header-section .subhead {color: white; }
+
+.header-section .mobile {display: none;}
+
+@media(max-width: 992px){
+    
+
+    .header-section .desktop {display: none;}
+
+    .header-section .mobile {display: flex;}
+
+    .header-section .mobile .fa-bars {color: white; font-size: 24px; cursor: pointer; }
+
+    .header-section .mobile ul {display: none;  flex-direction: column;  margin: auto; text-align: center; }
+
+    .header-section .mobile ul li {margin-bottom: 30px;}
+
+}
+
+/* header section */
+
+/* banner section */
+
+.banner-section {background:black; background-repeat: no-repeat; background-size: cover; height: calc(100vh - 13px); border-bottom: solid 13px  #BD181A; background-image: url('https://49514016.fs1.hubspotusercontent-na1.net/hubfs/49514016/TURY%20landing/Group%20382%20(3).png');
+background-size: 60%; background-position: right;}
+
+.banner-section .container {height: 100%; display: flex;}
+
+.banner-section .container .col.image-col {display: flex; justify-content: center}
+
+ .banner-section .container .col.image-col  img {width: 60%}
+
+.banner-section .container .col {margin: auto; margin-left: 0; width: 50% }
+
+.banner-section .container .col .headline {margin-bottom: 14px; color: white; }
+
+.banner-section .container .col h1 {margin-bottom: 14px; color: white; }
+
+.banner-section .container .col .body {color: white;  margin-bottom: 25px; font-weight: 300;}
+
+@media(max-width: 992px){
+    .banner-section {background-position: 62%; max-height: 800px; min-height: 720px; padding-top: 155px}
+  
+  .banner-section .container {flex-wrap: wrap}
+  
+    .banner-section .container .col {text-align: center; margin: auto; width: 100%; text-align: center;}
+
+    .banner-section .container .col h1 {max-width: unset;}
+
+    .banner-section .container .col .body {max-width: unset;}
+      
+  .banner-section .container .col.image-col img { height:300px; width: auto }
+  
+  
+
+
+}
+
+@media(max-width: 540px){
+  .banner-section .container .col.image-col img {width: 44%; height: unset}
+}
+
+/* about us section */
+
+
+/* contact-us section */
+
+.about-us-section {background: url(./images/vector-form.png); position: relative; }
+
+.about-us-section h2 {color: white; margin-bottom: 27px; line-height: 1.4; position: relative}
+
+.about-us-section .key-image {display: inline-block; position: relative; width: 93px; margin: 0 5px;}
+
+.about-us-section .key-image img { bottom: -5px; margin: 0; position: absolute}
+
+.about-us-section .form-col {width: 48%; background: black; padding: 90px 0; box-sizing: border-box; padding-left: 100px;   position:relative; padding-bottom: 133px }
+
+.about-us-section .form-col .container {margin-right: auto; margin-left: 0; max-width: 460px; position: relative; z-index: 2;}
+
+.about-us-section .car-col {background: url('https://49514016.fs1.hubspotusercontent-na1.net/hubfs/49514016/TURY%20landing/Rectangle%20407%20(1).png'); width: 52%; background-size: cover; position: relative; z-index: 4;}
+
+.about-us-section .form-col ul {display: flex; flex-direction: column; gap: 10px}
+
+.about-us-section .form-col ul li {color: white; display: flex; align-items: center;  gap: 7px; }
+
+.about-us-section .form-col ul li  img {align-self: start}
+
+@media(max-width: 992px){
+  .about-us-section .row {flex-wrap: wrap}
+    
+  .about-us-section .car-col  {width: 100%}
+  
+  .about-us-section .form-col {width: 100%; padding-left: 0}
+  
+  .about-us-section .form-col .container {width: 80%; margin: auto}
+}
+
+
+/* contact-us section */
+
+
+/* contact-us section */
+
+.contact-us-section {background: url(./images/vector-form.png); position: relative; }
+
+.contact-us-section h2 {color: white; margin-bottom: 27px;}
+
+.contact-us-section .key-image img { bottom: -5px; margin: 0;}
+
+
+.contact-us-section .car-col {background: url('https://49514016.fs1.hubspotusercontent-na1.net/hubfs/49514016/TURY%20landing/contact-us-bg.png'); width: 52%; background-size: cover; position: relative; z-index: 4;}
+
+.contact-us-section .container {padding-top: 105px; padding-bottom: 120px}
+
+.contact-us-section  h2 {color: black; text-align: center}
+
+.contact-us-section .form-col {width: 100%; }
+
+.contact-us-section .form-col form {display: flex; margin-bottom: 14px; flex-wrap: wrap; column-gap: 28px; max-width: 840px; margin: auto}
+
+.contact-us-section .form-col form button {box-sizing: border-box; border: none; cursor: pointer; transition: 0.2s;}
+
+.contact-us-section .form-col form button:hover {background-color: white; color: black; transition: 0.2s;}
+
+.contact-us-section .form-col form input {display: block;}
+
+.contact-us-section .form-col form textarea {display: block; height: 87px; resize: none;}
+
+.contact-us-section .form-col form select {display: block; appearance: none; background-image: url('./images/select-vector.png'); background-repeat: no-repeat; background-position: 95%;}
+
+.contact-us-section .vector-form {position: absolute; z-index: 1; height: 100%; right: 88%; bottom: 0;}
+
+.contact-us-section .form-col .subhead {text-transform: none; color: #717171; }
+
+.contact-us-section .form-col .hs-form-field {width: calc(50% - 14px)}
+
+.contact-us-section .form-col .hs-form-field input::placeholder {text-transform: uppercase}
+
+.contact-us-section .form-col .hs_submit {width: 100%}
+
+.contact-us-section .form-col .hs_submit input {margin: auto}
+
+.contact-us-section .form-col .hs-form-field.hs-consulta_tury {
+  width: 100%;
+}
+
+.contact-us-section .form-col form .form-block {background-color: transparent; padding: 13px 20px; border: 1px solid #717171; width: 100%; box-sizing: border-box; color:#717171; font-size: 15px; text-transform: uppercase; font-family: 'Inter', sans-serif; margin-bottom: 14px;}
+@media(max-width: 992px){
+    
+  .contact-us-section .container {padding: 80px 0}
+  
+    .contact-us-section .row {flex-wrap: wrap;}
+
+    .contact-us-section .car-col {width: 100%; min-height: 400px; height: 50vh;}
+
+    .contact-us-section .form-col {width: 100%; }
+  
+  .contact-us-section .form-col .hs-form-field {width: 100%}
+
+    .contact-us-section .form-col .container {width: 80%; max-width: unset; margin: auto; text-align: center; }
+
+    .contact-us-section .form-col h2 {max-width: unset;}
+}
+
+
+/* contact-us section */
+
+
+/* banner bottom section */
+
+.banner-bottom-section {height: 80vh; background: url('https://49514016.fs1.hubspotusercontent-na1.net/hubfs/49514016/TURY%20landing/banner-bottom-image.jpg'); min-height: 500px; color: white; background-size: cover; background-position: bottom;}
+
+
+.banner-bottom-section .container {margin-top: auto; height: 100%; display: flex; flex-direction: column; justify-content: end; padding-bottom: 90px; box-sizing: border-box;}
+
+.banner-bottom-section .container h2 {width: 40%; margin-bottom: 15px;}
+
+.banner-bottom-section .container .row {justify-content: space-between}
+
+.banner-bottom-section .container p.caption {width: 60%;}
+
+.banner-bottom-section .container .btn {align-self: end;}
+
+@media(max-width: 992px){
+    .banner-bottom-section {height: unset; min-height: unset;}
+
+    .banner-bottom-section .container {justify-content: center; padding: 90px 0;}
+
+    .banner-bottom-section .container .row {flex-direction: column;}
+
+    .banner-bottom-section .container h2, .banner-bottom-section .container p.caption  {width: unset; text-align: center;}
+
+    .banner-bottom-section .container .btn {align-self: center; margin-top: 15px;}
+}
+
+
+/* banner bottom section */
+
+/* footer section */
+
+.footer-section {
+    background-color: #7b7b7b;
+    padding: 44px 0;
+}
+
+
+.footer-section p.caption {color: white;}
+
+.footer-section .row {justify-content: space-between;}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.footer-right {
+    gap: 15px
+}
+
+
+.fa-facebook {
+    font-size: 22px;
+    bottom: 1px;
+    position: relative;
+}
+.social-icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #e0e0e0; 
+}
+
+@media(max-width: 992px){
+    .slick-slide {height: unset;}
+
+    .footer-section .row {flex-direction: column; align-items: center; margin-bottom: 40px; gap: 20px;}
+
+    .footer-section .footer-left {margin: auto;}
+
+    .footer-section {text-align: center;}
+    
+}
+
+/* footer section */
+
+
+/* hubspot form fix */
+
+label.hsfc-FieldLabel {margin: 0!important}
+
+label.hsfc-FieldLabel span {display: none!important}
+
+/* .hs-form .hs-form-required {
+  display: none !important;
+} */
+
+.hsfc-TextInput {background-color: transparent!important}
+
+.hs-error-msg {font-size: 15px;  color:#717171; font-weight: 300; position: relative; bottom: 6px}
+
+.input input {background-color: transparent; padding: 13px 20px; border: 1px solid #717171; width: 100%; box-sizing: border-box; color:#717171; font-size: 15px;  font-family: 'Inter', sans-serif; margin-bottom: 14px;}
+
+.input input:placeholder {text-transform: uppercase}
+
+.hs-button {box-sizing: border-box; border: none; cursor: pointer; transition: 0.2s;padding: 16px 23px; text-transform: uppercase; font-size: 18px; display: inline-block; font-family: 'Inter', sans-serif;color: white; background-color: #BD181A;}
+
+.hs-button:hover {background-color: white; color: black; transition: 0.2s;}
+
+@media(max-width: 992px){
+  .hs-button {margin: auto}
+}
+
+
+/* OLD FORM:
+
+                   <form action="">
+                                <input class="form-block" type="text" placeholder="NOMBRE">
+                                <input class="form-block" type="text" placeholder="EMAIL">
+                                <input class="form-block" type="text" placeholder="TELÉFONO">
+                                <select class="form-block" name="" id="">
+                                    <option selected disabled value="">CIUDAD</option>
+                                    <option value="">BUENOS AIRES</option>
+                                    <option value="">ROSARIO</option>
+                                    <option value="">CORDOBA</option>
+                                    <option value="">LA PLATA</option>
+                                </select>
+                                <textarea  class="form-block" name="" id="" placeholder="CONSULTA..."></textarea>
+                                <button class="btn red">QUIERO MÁS INFO</button>
+                            </form> - */
+
