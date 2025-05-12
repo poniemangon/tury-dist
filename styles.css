@@ -165,9 +165,10 @@ background-size: 60%; background-position: right;}
 .about-us-section .form-col ul li  img {align-self: start}
 
 @media(max-width: 992px){
+    
   .about-us-section .row {flex-wrap: wrap}
     
-  .about-us-section .car-col  {width: 100%}
+  .about-us-section .car-col  {width: 100%; height: 400px}
   
   .about-us-section .form-col {width: 100%; padding-left: 0}
   
