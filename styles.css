@@ -145,6 +145,8 @@ background-size: 60%; background-position: right;}
 
 .about-us-section {background: url(./images/vector-form.png); position: relative; }
 
+.about-us-section .container {max-width: 600px; margin-right: auto; margin-left: 0; position: relative;}
+
 .about-us-section h2 {color: white; margin-bottom: 27px; line-height: 1.4; position: relative}
 
 .about-us-section .key-image {display: inline-block; position: relative; width: 93px; margin: 0 5px;}
@@ -153,7 +155,6 @@ background-size: 60%; background-position: right;}
 
 .about-us-section .form-col {width: 48%; background: black; padding: 90px 0; box-sizing: border-box; padding-left: 100px;   position:relative; padding-bottom: 133px }
 
-.about-us-section .form-col .container {margin-right: auto; margin-left: 0; max-width: 460px; position: relative; z-index: 2;}
 
 .about-us-section .car-col {background: url('https://49514016.fs1.hubspotusercontent-na1.net/hubfs/49514016/TURY%20landing/Rectangle%20407%20(1).png'); width: 52%; background-size: cover; position: relative; z-index: 4;}
 
